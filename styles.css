@@ -1,1 +1,59 @@
 /*  your css code here. If applicable */
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        #grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+       
+        }
+
+        div {
+            background-color: #f0f0f0;
+            padding: 20px;
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+#one {
+    grid-area: 1 / 1 / 2/ 5;
+}
+
+#two {
+    grid-area: 2 / 1 / 6 / 2;
+}
+
+#three {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+#four {
+    grid-area: 2 / 3 / 3 / 5;
+}
+
+#five {
+    grid-area: 3 / 2 / 4 /4 ;
+}
+
+#six {
+    grid-area: ;
+}
+
+#seven {
+    grid-area: ;
+}
+
+#eight {
+    grid-area: ;
+}
+
+#nine {
+    grid-area: ;
+}
+
+#ten {
+    grid-area: 5 / 2 / 6 / 5;
+}
